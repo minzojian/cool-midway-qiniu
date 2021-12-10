@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "inlineSourceMap": false,
+    "noImplicitThis": false,
+    "stripInternal": false,
+    "noImplicitReturns": false,
+    "pretty": true,
+    "declaration": true,
+    "outDir": "dist",
+    "strict": false,
+    "noUnusedLocals": false,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "test"]
+}

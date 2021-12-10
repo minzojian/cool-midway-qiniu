@@ -1,0 +1,47 @@
+{
+    "name": "@cool-midway/qiniu",
+    "pluginName": "七牛云上传",
+    "version": "1.0.0",
+    "description": "将文件上传到七牛云KODO，签token给前端直传方式",
+    "author": "KentWood",
+    "contact": "QQ:23471079",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "build": "midway-bin build -c",
+        "test": "midway-bin test --ts",
+        "cov": "midway-bin cov --ts",
+        "ci": "npm run cov"
+    },
+    "keywords": [],
+    "files": [
+        "dist/**/*.js",
+        "dist/**/*.d.ts",
+        "dist/**/*.json"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@cool-midway/core": "^4.0.12",
+        "@midwayjs/cli": "^1.2.92",
+        "@midwayjs/core": "^2.14.0",
+        "@midwayjs/decorator": "^2.7.0",
+        "@midwayjs/logger": "^2.13.0",
+        "@midwayjs/orm": "^1.3.0",
+        "@types/ioredis": "^4.19.3",
+        "@types/jest": "^26.0.20",
+        "@types/node": "14",
+        "cross-env": "^7.0.3",
+        "egg": "^2.29.1",
+        "jest": "^26.6.3",
+        "mwts": "^1.1.2",
+        "ts-jest": "^26.5.0",
+        "typescript": "^4.1.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/minzojian/cool-midway-qiniu"
+    },
+    "dependencies": {
+        "qiniu": "^7.4.0"
+    }
+}

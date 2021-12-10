@@ -1,0 +1,83 @@
+[
+    {
+        "label": "accessKey",
+        "prop": "accessKey",
+        "component": {
+            "name": "el-input",
+            "attrs": {
+                "placeholder": "七牛云accessKey"
+            }
+        },
+        "props": {
+            "label-width": "130px"
+        },
+        "rules": {
+            "required": true,
+            "message": "值不能为空"
+        }
+    },
+    {
+        "label": "secretKey",
+        "prop": "secretKey",
+        "component": {
+            "name": "el-input",
+            "attrs": {
+                "placeholder": "七牛云secretKey"
+            }
+        },
+        "props": {
+            "label-width": "130px"
+        },
+        "rules": {
+            "required": true,
+            "message": "值不能为空"
+        }
+    },
+    {
+        "label": "bucket",
+        "prop": "bucket",
+        "component": {
+            "name": "el-input",
+            "attrs": {
+                "placeholder": "七牛云KODO的bucket"
+            }
+        },
+        "props": {
+            "label-width": "130px"
+        },
+        "rules": {
+            "required": true,
+            "message": "值不能为空"
+        }
+    },
+    {
+        "label": "zone",
+        "prop": "zone",
+        "component": {
+            "name": "el-input",
+            "attrs": {
+                "placeholder": "七牛云KODO的zone(例如：华南为z2)"
+            }
+        },
+        "props": {
+            "label-width": "130px"
+        },
+        "rules": {
+            "required": true,
+            "message": "值不能为空"
+        }
+    },
+    {
+        "label": "publicDomain",
+        "prop": "publicDomain",
+        "component": {
+            "name": "el-input",
+            "attrs": {
+                "placeholder": "Bucket对应的公开地址,比如CDN地址"
+            }
+        },
+        "props": {
+            "label-width": "130px"
+        }
+    }
+]
